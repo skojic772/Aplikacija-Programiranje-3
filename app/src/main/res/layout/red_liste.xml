@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:elevation="20dp"
+            android:background="@drawable/curvebackground">
+
+            <RelativeLayout
+                android:id="@+id/org"
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#004D40">
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/nazivKnjige1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/org"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Naziv knjige:"/>
+
+            <TextView
+                android:id="@+id/nazivKnjige"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/nazivKnjige1"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/org"
+                android:textAllCaps="true"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/autor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nazivKnjige"
+                android:layout_toEndOf="@id/org"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Autor:"/>
+            <TextView
+                android:id="@+id/autor"
+                android:layout_below="@id/autor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/org"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/zanr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/autor"
+                android:layout_toEndOf="@id/org"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Žanr:"/>
+            <TextView
+                android:id="@+id/zanr"
+                android:layout_below="@id/zanr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/org"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/biljeska1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zanr"
+                android:layout_toEndOf="@id/org"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Bilješka:"/>
+            <TextView
+                android:id="@+id/biljeska"
+                android:layout_below="@id/biljeska1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/org"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
