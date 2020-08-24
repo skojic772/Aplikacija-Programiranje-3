@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <owl:Ontology rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suncica Kojic</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontologija knjiga</rdfs:label>
+  </owl:Ontology>
+  
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+  </owl:AnnotationProperty>
+
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
+  </owl:AnnotationProperty>
+
+  <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/wantsToRead">
+  </owl:AnnotationProperty>
+  
+  <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/hasRead">
+  </owl:AnnotationProperty>
+
+
+  <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Osoba">
+  </owl:Class>
+
+  <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Naziv_knjige">
+  </owl:Class>
+  
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Autor">
+  </owl:Class>
+ 
+
+
+  <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#SuncicaKojic">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Osoba"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ja!</dc:description>
+    <rdfs:label>Sunčica Kojić</rdfs:label>
+    <foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#SlikaDorijanaGraya">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Oscar Wilde</dc:title>
+        <dc:description>Gotička fikcija, filozofska fikcija</dc:description>
+        <foaf:name>Slika Dorijana Graya</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#MaliPrinc">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Antonie de Saint-Exupery</dc:title>
+        <dc:description>Dječja književnost </dc:description>
+        <foaf:name>Mali princ</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#IspricatCuTiPricu">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Jorge Bucay</dc:title>
+        <dc:description>Psihološka knjiga, priče</dc:description>
+        <foaf:name>Ispričat ću ti priču</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#PutSamoovisnosti">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Jorge Bucay</dc:title>
+        <dc:description>Knjiga samopomoći</dc:description>
+        <foaf:name>Put samoovisnosti</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#PutSrece">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Jorge Bucay</dc:title>
+        <dc:description>Knjiga samopomoći</dc:description>
+        <foaf:name>Put sreće</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#DnevnikAnneFrank">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Anna Frank</dc:title>
+        <dc:description>Životopis, autobiografija</dc:description>
+        <foaf:name>Dnevnik Anne Frank</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#AnaKarenjina">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Lav Nikolajevič Tolstoj</dc:title>
+        <dc:description>Roman, fikcija, realizam</dc:description>
+        <foaf:name>Ana Karenjina</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#GospodaBovary">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Gustave Flaubert</dc:title>
+        <dc:description>Roman, realizam, fikcija, modernizam</dc:description>
+        <foaf:name>Gospođa Bovary</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#ZlocinIKazna">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Fjodor M. Dostojevski</dc:title>
+        <dc:description>Roman, kriminalistička fikcija, psihološka fikcija</dc:description>
+        <foaf:name>Zločin i kazna</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#ZeneKojeTrceSVukovima">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Clarissa Pinkola Estes</dc:title>
+        <dc:description>Knjiga samopomoći</dc:description>
+        <foaf:name>Žene koje trče s vukovima</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#PonosIPredrasude">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Jane Austen</dc:title>
+        <dc:description>ljubavni roman, fikcija, roman običaja</dc:description>
+        <foaf:name>Ponos i predrasude</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+	
+	<foaf:hasRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#AlisaUZemljiCudesa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Lewis Carroll</dc:title>
+        <dc:description>Fikcija, dječja književnost</dc:description>
+        <foaf:name>Alisa u zemlji čudesa</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:hasRead>
+
+    <foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#ConfessionsOfASociopath">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>M.E.Thomas</dc:title>
+        <dc:description>Životopis, autobiografija</dc:description>
+        <foaf:name>Confessions  of a Sociopath</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+	
+	<foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#ZenekojeKupujuCvijece">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Vanessa Montfort</dc:title>
+        <dc:description>Knjiga o životu i ljubavi, usponima i padovima</dc:description>
+        <foaf:name>Žene koje kupuju cvijeće</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+	
+	<foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#BlackButterfly">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Robert M. Drake</dc:title>
+        <dc:description>Poezija</dc:description>
+        <foaf:name>Black Butterfly</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+	
+	<foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#TheAlchemist">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Paulo Coelho</dc:title>
+        <dc:description>Roman, drama, fantastična fikcija</dc:description>
+        <foaf:name>The Alchemist</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+	
+	
+	<foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#NocniCirkus">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Erin Morgenstern</dc:title>
+        <dc:description>Ljubavni roman, fantastična fikcija</dc:description>
+        <foaf:name>The Alchemist</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+	
+	<foaf:wantsToRead>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/skojic/ontologija_knjiga#PutZivota">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Naziv_knjige"/>
+		<dc:title>Monica Mclnerney</dc:title>
+        <dc:description>Fikcija</dc:description>
+        <foaf:name>Put života</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wantsToRead>
+
+	
+	</owl:NamedIndividual>
+
+    </rdf:RDF>
+
